@@ -1,0 +1,58 @@
+{
+  "success": "OK",
+  "trace": null,
+  "payload": {
+    "items": [
+      {
+        "codigo": "9000001-11-COT26",
+        "nombre": "SOPORTES Y TELONES (FIXTURE)",
+        "estado": { "id_estado": 2, "codigo": "publicada", "glosa": "Publicada" },
+        "convocatoria": { "estado_convocatoria": 1, "descripcion": "Primer llamado" },
+        "documentos": [ { "id": 1000001, "nombre": "TDR_FIXTURE.pdf" } ],
+        "fechas": {
+          "fecha_publicacion": "2026-11-13 21:59",
+          "fecha_cierre": "2026-11-16 11:00",
+          "fecha_ultimo_cambio": "2026-11-13T22:00:00.350Z",
+          "fecha_cierre_primer_llamado": "2026-11-16T11:00:00Z",
+          "fecha_cierre_segundo_llamado": "2026-11-19T00:00:35.190Z"
+        },
+        "montos": { "moneda": "CLP", "monto_disponible": 1599000, "monto_disponible_clp": 1599000 },
+        "institucion": {
+          "organismo_comprador": "ORGANISMO PUBLICO FICTICIO UNO",
+          "rut": "61.000.001-1",
+          "unidad_compra": "UNIDAD DE COMPRA FICTICIA",
+          "region": 13,
+          "nombre_region": "Región Metropolitana de Santiago"
+        },
+        "resumen": { "total_ofertas_recibidas": 0 },
+        "motivos": { "motivo_cancelacion": null, "motivo_desierta": null, "motivo_seleccion": null },
+        "links": { "detalle": "/v2/compra-agil/9000001-11-COT26" }
+      },
+      {
+        "codigo": "9000002-22-COT26",
+        "nombre": "INSUMOS DE ASEO (FIXTURE)",
+        "estado": { "id_estado": 5, "codigo": "proveedor_seleccionado", "glosa": "Proveedor seleccionado" },
+        "convocatoria": { "estado_convocatoria": 2, "descripcion": "Segundo llamado" },
+        "documentos": [],
+        "fechas": {
+          "fecha_publicacion": "2026-11-10 09:15",
+          "fecha_cierre": "2026-11-12 15:00",
+          "fecha_ultimo_cambio": "2026-11-13T18:30:00.000Z"
+        },
+        "montos": { "moneda": "CLP", "monto_disponible": 850000.5, "monto_disponible_clp": 850000.5 },
+        "institucion": {
+          "organismo_comprador": "ORGANISMO PUBLICO FICTICIO DOS",
+          "rut": "61.000.002-2",
+          "unidad_compra": "ABASTECIMIENTO",
+          "region": 5,
+          "nombre_region": "Región de Valparaíso"
+        },
+        "resumen": { "total_ofertas_recibidas": 3 },
+        "motivos": { "motivo_cancelacion": null, "motivo_desierta": null, "motivo_seleccion": "Menor precio" },
+        "links": { "detalle": "/v2/compra-agil/9000002-22-COT26" }
+      }
+    ],
+    "paginacion": { "total_paginas": 2, "numero_pagina": 1, "tamano_pagina": 50, "total_resultados": 3 }
+  },
+  "errors": null
+}

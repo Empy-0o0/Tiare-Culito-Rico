@@ -1,0 +1,67 @@
+{
+  "success": "OK",
+  "trace": null,
+  "payload": {
+    "codigo": "9000002-22-COT26",
+    "nombre": "INSUMOS DE ASEO (FIXTURE)",
+    "descripcion": "SE REQUIERE ADQUIRIR INSUMOS DE ASEO SEGUN ESPECIFICACIONES (DATO FICTICIO).",
+    "estado": { "id_estado": 5, "codigo": "proveedor_seleccionado", "glosa": "Proveedor seleccionado" },
+    "convocatoria": {
+      "estado_convocatoria": 2,
+      "descripcion": "Segundo llamado",
+      "fecha_cierre_primer_llamado": "2026-11-11 15:00",
+      "fecha_cierre_segundo_llamado": "2026-11-12 15:00"
+    },
+    "fechas": {
+      "fecha_publicacion": "2026-11-10 09:15",
+      "fecha_cierre": "2026-11-12 15:00",
+      "fecha_ultimo_cambio": "2026-11-13 18:30",
+      "fecha_cancelacion": null
+    },
+    "entrega": { "direccion_entrega": "DIRECCION FICTICIA 123", "plazo_entrega_dias": 5 },
+    "documentos": [ { "id": 2000001, "nombre": "BASES_FIXTURE.pdf" }, { "id": 2000002, "nombre": "ANEXO_FIXTURE.xlsx" } ],
+    "presupuesto": {
+      "tipo_presupuesto": "Disponible",
+      "moneda": "CLP",
+      "presupuesto_estimado": null,
+      "monto_disponible": 850000.5,
+      "monto_disponible_clp": 850000.5,
+      "valor_cambio_moneda": null,
+      "fecha_cambio_moneda": null
+    },
+    "id_orden_compra": 77777777,
+    "orden_compra": { "codigo_orden_compra": null, "estado_orden_compra": null },
+    "institucion": {
+      "organismo_comprador": "ORGANISMO PUBLICO FICTICIO DOS",
+      "rut": "61.000.002-2",
+      "unidad_compra": "ABASTECIMIENTO",
+      "region": 5,
+      "nombre_region": "Región de Valparaíso"
+    },
+    "productos_solicitados": [
+      { "codigo_producto": 47131800, "nombre": "Soluciones de limpieza", "descripcion": "DETERGENTE (FIXTURE)", "cantidad": 10, "unidad_medida": "EA" },
+      { "codigo_producto": "47121701", "nombre": "Bolsas de basura", "descripcion": null, "cantidad": 2.5, "unidad_medida": "KG" }
+    ],
+    "proveedores_cotizando": [
+      {
+        "rut_proveedor": "76.000.000-0",
+        "razon_social": "PROVEEDOR FICTICIO SPA",
+        "es_emt": true,
+        "id_cotizacion": 123,
+        "activo": true,
+        "fecha_creacion": "2026-11-11 10:00",
+        "valor_neto": 700000,
+        "total_impuesto": 133000,
+        "monto_despacho": 0,
+        "monto_total": 833000,
+        "nombre_impuesto": "IVA",
+        "porcentaje_impuesto": 19,
+        "productos_cotizados": []
+      }
+    ],
+    "resumen": { "multa_sancion": null, "total_ofertas_recibidas": 3, "total_demandas": 0 },
+    "motivos": { "motivo_cancelacion": null, "motivo_desierta": null },
+    "flags": { "considera_requisitos_medioambientales": false, "considera_requisitos_impacto_social_economico": false }
+  },
+  "errors": null
+}

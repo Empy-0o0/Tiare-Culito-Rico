@@ -1,0 +1,9 @@
+{
+  "Cantidad": 2,
+  "FechaCreacion": "2026-11-14T10:20:00.000",
+  "Version": "v1",
+  "Listado": [
+    { "Codigo": "9999-100-SE26", "Nombre": "COMPRA DE INSUMOS FICTICIA", "CodigoEstado": 6 },
+    { "Codigo": "9999-101-CM26", "Nombre": "CONVENIO MARCO FICTICIO", "CodigoEstado": 4 }
+  ]
+}

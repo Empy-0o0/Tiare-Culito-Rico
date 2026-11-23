@@ -1,0 +1,111 @@
+{
+    "Cantidad": 1,
+    "FechaCreacion": "2026-11-17T18:24:18.8409273Z",
+    "Version": "v1",
+    "Listado": [
+        {
+            "Codigo": "1000813-440-AG26",
+            "Nombre": "FI_ADQUISICION DE ARIDOS PARA SER EMPLEADOS EN ZANJA DE CONEXION DE GAS DEL QUINCHO DE LA 4TA BRIACO, RESP. SG1. I. VERA M. FONO 954068797: 1000813-392-COT26",
+            "CodigoEstado": 4,
+            "Estado": "Enviada a proveedor",
+            "CodigoLicitacion": "",
+            "Descripcion": "SIC 355843        OC SIGLE 349138        \r\nITEM  2204010          CC 1100010004\r\nPLAZO DE ENTREGA:   10  DÍAS HÁBILES ADM\r\nRESPONSABLE:  IVAN VERA MUÑOZ     CEL: 954068797 \r\nGIRO: DEFENSA\r\nAL MOMENTO DE EMITIR LA FACTURA SE DEBEN INCLUIR LOS DATOS DE CUENTA PARA PODER EFECTUAR EL PAGO DE CORRECTA FORMA.\r\n",
+            "CodigoTipo": "13",
+            "Tipo": "AG",
+            "TipoMoneda": "CLP",
+            "CodigoEstadoProveedor": 1,
+            "EstadoProveedor": "Nueva orden de compra",
+            "Fechas": {
+                "FechaCreacion": "2026-11-13T11:06:16.577",
+                "FechaEnvio": "2026-11-16T14:56:39.18",
+                "FechaAceptacion": null,
+                "FechaCancelacion": null,
+                "FechaUltimaModificacion": "2026-11-16T10:36:00"
+            },
+            "TieneItems": "1",
+            "PromedioCalificacion": 4.7,
+            "CantidadEvaluacion": 2,
+            "Descuentos": 0,
+            "Cargos": 0,
+            "TotalNeto": 4760000,
+            "PorcentajeIva": 19,
+            "Impuestos": 904400,
+            "Total": 5664400,
+            "Financiamiento": "FONDOS INTERNOS",
+            "Pais": "Other",
+            "TipoDespacho": "7",
+            "FormaPago": "2",
+            "Comprador": {
+                "CodigoOrganismo": "111870",
+                "NombreOrganismo": "DIVISION LOGISTICA DEL EJERCITO",
+                "RutUnidad": "61.999.040-4",
+                "CodigoUnidad": "1000813",
+                "NombreUnidad": "Jef Adm y Logística - Campo Militar \"Austral\"",
+                "Actividad": "Defensa",
+                "DireccionUnidad": "",
+                "ComunaUnidad": "Punta Arenas",
+                "RegionUnidad": "Región de Magallanes y de la Antártica",
+                "Pais": "Other",
+                "NombreContacto": "Persona Ficticia",
+                "CargoContacto": "Persona Ficticia",
+                "FonoContacto": "",
+                "MailContacto": ""
+            },
+            "Proveedor": {
+                "Codigo": "1234567",
+                "Nombre": "PROVEEDOR FICTICIO SPA",
+                "Actividad": "SERVICIOS DE ARQUITECTURA Y TECNICO RELACIONADO| SERVICIOS PROFESIONALES DE TOPOGRAFIA Y AGRIMENSURA| OTROS SERVICIOS DESARROLLADOS POR PROFESIONALES| OTRAS ACTIVIDADES EMPRESARIALES N.C.P.| OTRAS ACTIVIDADES DE SERVICIOS PERSONALES N.C.P.",
+                "CodigoSucursal": "1234567",
+                "NombreSucursal": "PROVEEDOR FICTICIO SPA",
+                "RutSucursal": "76.123.456-0",
+                "Direccion": "Calle Ficticia 123",
+                "Comuna": "Punta Arenas",
+                "Region": "Región de Magallanes y de la Antártica",
+                "Pais": "Other",
+                "NombreContacto": "Persona Ficticia",
+                "CargoContacto": "Persona Ficticia",
+                "FonoContacto": "",
+                "MailContacto": ""
+            },
+            "Items": {
+                "Cantidad": 2,
+                "Listado": [
+                    {
+                        "Correlativo": 1,
+                        "CodigoCategoria": 73121800,
+                        "Categoria": "Servicios de producción y fabricación industrial / Industrias del metal y de minerales / Servicios industriales de productos minerales no metálicos",
+                        "CodigoProducto": 73121805,
+                        "Producto": "Servicios de fabricación de productos de hormigón, aglomerado o piedra",
+                        "EspecificacionComprador": "ARENA FINA PARA ESTUCO",
+                        "EspecificacionProveedor": "ARENA FINA PARA ESTUCO",
+                        "Cantidad": 84,
+                        "Unidad": null,
+                        "Moneda": "CLP",
+                        "PrecioNeto": 40000,
+                        "TotalCargos": 0,
+                        "TotalDescuentos": 0,
+                        "TotalImpuestos": 0,
+                        "Total": 0
+                    },
+                    {
+                        "Correlativo": 2,
+                        "CodigoCategoria": 73121800,
+                        "Categoria": "Servicios de producción y fabricación industrial / Industrias del metal y de minerales / Servicios industriales de productos minerales no metálicos",
+                        "CodigoProducto": 73121805,
+                        "Producto": "Servicios de fabricación de productos de hormigón, aglomerado o piedra",
+                        "EspecificacionComprador": "HORMIGON ELABORADO G5(10)25/06",
+                        "EspecificacionProveedor": "HORMIGON ELABORADO G5(10)25/06",
+                        "Cantidad": 14,
+                        "Unidad": null,
+                        "Moneda": "CLP",
+                        "PrecioNeto": 100000,
+                        "TotalCargos": 0,
+                        "TotalDescuentos": 0,
+                        "TotalImpuestos": 0,
+                        "Total": 0
+                    }
+                ]
+            }
+        }
+    ]
+}

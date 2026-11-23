@@ -1,0 +1,33 @@
+{
+  "success": "OK",
+  "trace": null,
+  "payload": {
+    "items": [
+      {
+        "codigo": "9000003-33-COT26",
+        "nombre": "SERVICIO DE TRANSPORTE (FIXTURE)",
+        "estado": { "id_estado": 3, "codigo": "cerrada", "glosa": "Cerrada" },
+        "convocatoria": { "estado_convocatoria": 1, "descripcion": "Primer llamado" },
+        "documentos": null,
+        "fechas": {
+          "fecha_publicacion": "2026-11-11 10:00",
+          "fecha_cierre": "2026-11-13 10:00",
+          "fecha_ultimo_cambio": "2026-11-13T10:00:01.000Z"
+        },
+        "montos": { "moneda": "CLP", "monto_disponible": 300000, "monto_disponible_clp": 300000 },
+        "institucion": {
+          "organismo_comprador": "ORGANISMO PUBLICO FICTICIO TRES",
+          "rut": "61.000.003-3",
+          "unidad_compra": "SERVICIOS GENERALES",
+          "region": 99,
+          "nombre_region": null
+        },
+        "resumen": { "total_ofertas_recibidas": 1 },
+        "motivos": { "motivo_cancelacion": null, "motivo_desierta": null, "motivo_seleccion": null },
+        "links": { "detalle": "/v2/compra-agil/9000003-33-COT26" }
+      }
+    ],
+    "paginacion": { "total_paginas": 2, "numero_pagina": 2, "tamano_pagina": 50, "total_resultados": 3 }
+  },
+  "errors": null
+}

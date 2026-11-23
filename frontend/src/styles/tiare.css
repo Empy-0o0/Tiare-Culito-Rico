@@ -1,0 +1,154 @@
+/*
+ * Estilos que no provienen de MUI. Toda la interfaz usa el tema de src/app/theme.ts;
+ * aquí solo quedan utilidades tipográficas y la línea de cierres del Resumen (dibujo propio).
+ * Los colores replican los tokens del tema rosado.
+ */
+
+:root {
+  --primary: #984061;
+  --urgent: #a04a12;
+  --ink: #22191c;
+  --ink-3: #837377;
+  --line: #d5c2c6;
+}
+
+/* Códigos de procesos y montos: Archivo condensado con numerales tabulares. */
+.code,
+.num {
+  font-family: 'Archivo', 'Roboto Condensed', system-ui, sans-serif;
+  font-variant-numeric: tabular-nums;
+  white-space: nowrap;
+}
+
+.code {
+  font-variation-settings: 'wdth' 75;
+  font-weight: 650;
+  letter-spacing: 0.01em;
+}
+
+.num {
+  font-variation-settings: 'wdth' 88;
+}
+
+.muted {
+  color: var(--ink-3);
+}
+
+.page-loading {
+  padding: 32px;
+}
+
+/* ---------------------------------------------------------------- Línea de cierres (Resumen) */
+.timeline {
+  position: relative;
+  padding-top: 8px;
+}
+
+.timeline-track {
+  position: relative;
+  height: 168px;
+  border-bottom: 1px solid var(--ink);
+}
+
+.timeline-day {
+  position: absolute;
+  top: 0;
+  bottom: -26px;
+  border-left: 1px dashed var(--line);
+  font-size: 12px;
+  color: var(--ink-3);
+}
+
+.timeline-day span {
+  position: absolute;
+  bottom: 0;
+  left: 6px;
+  white-space: nowrap;
+}
+
+.timeline-now {
+  position: absolute;
+  top: 0;
+  bottom: -4px;
+  width: 2px;
+  background: var(--urgent);
+}
+
+.timeline-now::after {
+  content: 'ahora';
+  position: absolute;
+  top: -2px;
+  left: 6px;
+  font-size: 11px;
+  font-weight: 600;
+  color: var(--urgent);
+}
+
+.timeline-mark {
+  position: absolute;
+  bottom: 0;
+  width: 12px;
+  transform: translateX(-50%);
+  padding: 0;
+  border: 0;
+  border-radius: 4px 4px 0 0;
+  background: var(--primary);
+  opacity: 0.85;
+  cursor: pointer;
+}
+
+.timeline-mark.soon {
+  background: var(--urgent);
+}
+
+.timeline-mark:hover,
+.timeline-mark:focus-visible {
+  opacity: 1;
+}
+
+.timeline-mark:focus-visible {
+  outline: 2px solid var(--primary);
+  outline-offset: 1px;
+}
+
+.timeline-axis {
+  height: 30px;
+}
+
+.timeline-legend {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px 18px;
+  margin-top: 4px;
+  font-size: 12px;
+  color: var(--ink-3);
+}
+
+.timeline-tip {
+  position: absolute;
+  z-index: 3;
+  max-width: 300px;
+  padding: 8px 10px;
+  border-radius: 10px;
+  background: var(--ink);
+  color: #fff8f8;
+  font-size: 12px;
+  pointer-events: none;
+  transform: translate(-50%, -100%);
+}
+
+.timeline-tip strong {
+  display: block;
+  font-family: 'Archivo', system-ui, sans-serif;
+  font-variation-settings: 'wdth' 75;
+  font-size: 13px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation: none !important;
+    transition: none !important;
+  }
+}

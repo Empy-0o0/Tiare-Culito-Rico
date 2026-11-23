@@ -1,0 +1,18 @@
+{
+    "Cantidad": 3,
+    "FechaCreacion": "2026-11-17T18:24:19.4815354Z",
+    "listaEmpresas": [
+        {
+            "CodigoEmpresa": "7086",
+            "NombreEmpresa": "AGENCIA CHILENA DE COOPERACION INTERNACIONAL PARA EL DESARROLLO"
+        },
+        {
+            "CodigoEmpresa": "1224636",
+            "NombreEmpresa": "AGENCIA CHILENA DE EFICIENCIA ENERGETICA"
+        },
+        {
+            "CodigoEmpresa": "7193",
+            "NombreEmpresa": "AGENCIA DE PROMOCION DE LA INVERSION EXTRANJERA"
+        }
+    ]
+}

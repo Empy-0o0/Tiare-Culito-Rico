@@ -1,0 +1,9 @@
+{
+  "Cantidad": 3,
+  "FechaCreacion": "2026-11-14T10:30:00.000",
+  "listaEmpresas": [
+    { "CodigoEmpresa": "7000", "NombreEmpresa": "ORGANISMO PÚBLICO FICTICIO" },
+    { "CodigoEmpresa": "7001", "NombreEmpresa": "MUNICIPALIDAD FICTICIA" },
+    { "CodigoEmpresa": "7002", "NombreEmpresa": "HOSPITAL FICTICIO" }
+  ]
+}

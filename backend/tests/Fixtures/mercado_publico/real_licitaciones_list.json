@@ -1,0 +1,43 @@
+{
+    "Cantidad": 6,
+    "FechaCreacion": "2026-11-17T18:24:06.012809Z",
+    "Version": "v1",
+    "Listado": [
+        {
+            "CodigoExterno": "1002-97-LE26",
+            "Nombre": "DRV-ARRIENDO TRACTOR DESBROZADOR SAN PABLO",
+            "CodigoEstado": 6,
+            "FechaCierre": "2026-11-16T15:01:00"
+        },
+        {
+            "CodigoExterno": "1057389-57-LE26",
+            "Nombre": "CASA DE ACOGIDA PROGRAMA MAPUCHE HOSPITAL VICTORIA",
+            "CodigoEstado": 8,
+            "FechaCierre": "2026-11-02T16:00:00"
+        },
+        {
+            "CodigoExterno": "1057429-129-LE26",
+            "Nombre": "SERVICIO RADIER DE HORMIGON PATIO EL ENCUENTRO",
+            "CodigoEstado": 5,
+            "FechaCierre": "2026-11-23T15:01:00"
+        },
+        {
+            "CodigoExterno": "1057509-202-LE26",
+            "Nombre": "“CONVENIO COMPRA DE EXÁMENES DE TEST DE PROVOCACIÓN BRONQUIAL CON METACOLINA-GES”  brd",
+            "CodigoEstado": 15,
+            "FechaCierre": "2026-11-16T18:13:04.48"
+        },
+        {
+            "CodigoExterno": "1057509-248-LE26",
+            "Nombre": "ADQUISICIÓN DE ELEMENTOS DE PROTECCIÓN PERSONAL PARA UNIDAD DE GESTIÓN DE CAMAS crp",
+            "CodigoEstado": 7,
+            "FechaCierre": "2026-11-16T15:07:03.507"
+        },
+        {
+            "CodigoExterno": "4127-66-LE26",
+            "Nombre": "[DIGEDEP]CURSO ACTUALIZACIÓN EN PATOLOGÍA ORAL",
+            "CodigoEstado": 16,
+            "FechaCierre": "2026-11-16T14:48:31.96"
+        }
+    ]
+}

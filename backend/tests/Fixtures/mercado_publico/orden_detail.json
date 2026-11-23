@@ -1,0 +1,78 @@
+{
+  "Cantidad": 1,
+  "FechaCreacion": "2026-11-14T10:21:00.000",
+  "Version": "v1",
+  "Listado": [
+    {
+      "Codigo": "9999-100-SE26",
+      "Nombre": "COMPRA DE INSUMOS FICTICIA",
+      "CodigoEstado": 6,
+      "Estado": "Aceptada",
+      "CodigoLicitacion": "9999-11-LE26",
+      "Descripcion": "Insumos de aseo (dato de prueba).",
+      "CodigoTipo": "8",
+      "Tipo": "SE",
+      "TipoMoneda": "CLP",
+      "CodigoEstadoProveedor": 4,
+      "EstadoProveedor": "Aceptada",
+      "Fechas": {
+        "FechaCreacion": "2026-11-12T11:00:00",
+        "FechaEnvio": "2026-11-12T11:30:00",
+        "FechaAceptacion": "2026-11-13T09:00:00",
+        "FechaCancelacion": null,
+        "FechaUltimaModificacion": "2026-11-13T09:00:00"
+      },
+      "TieneItems": "1",
+      "PromedioCalificacion": 4.5,
+      "CantidadEvaluacion": 10,
+      "Descuentos": 0.0,
+      "Cargos": 0.0,
+      "TotalNeto": 1000000.0,
+      "PorcentajeIva": 19.0,
+      "Impuestos": 190000.0,
+      "Total": 1190000.0,
+      "Financiamiento": "",
+      "Pais": "CL",
+      "TipoDespacho": "7",
+      "FormaPago": "2",
+      "Comprador": {
+        "CodigoOrganismo": "7000",
+        "NombreOrganismo": "ORGANISMO PÚBLICO FICTICIO",
+        "RutUnidad": "61.000.001-1",
+        "CodigoUnidad": "7001",
+        "NombreUnidad": "Unidad de Compras Ficticia",
+        "Actividad": "ADMINISTRACION PUBLICA",
+        "DireccionUnidad": "Calle Falsa 123",
+        "ComunaUnidad": "Santiago",
+        "RegionUnidad": "Región Metropolitana de Santiago",
+        "Pais": "CL",
+        "NombreContacto": "PERSONA DE PRUEBA",
+        "CargoContacto": "Analista",
+        "FonoContacto": "000000000",
+        "MailContacto": "contacto@example.invalid"
+      },
+      "Proveedor": {
+        "Codigo": "17793",
+        "Nombre": "PROVEEDOR FICTICIO SPA",
+        "Actividad": "VENTA AL POR MAYOR",
+        "CodigoSucursal": "1",
+        "NombreSucursal": "Casa matriz",
+        "RutSucursal": "76.000.000-0",
+        "Direccion": "Av. Ficticia 456",
+        "Comuna": "Providencia",
+        "Region": "Región Metropolitana de Santiago",
+        "Pais": "CL",
+        "NombreContacto": "CONTACTO DE PRUEBA",
+        "CargoContacto": "Ventas",
+        "FonoContacto": "000000000",
+        "MailContacto": "ventas@example.invalid"
+      },
+      "Items": {
+        "Cantidad": 1,
+        "Listado": [
+          { "Correlativo": 1, "CodigoCategoria": 47131800, "Categoria": "Artículos de limpieza", "CodigoProducto": 47131801, "EspecificacionComprador": "Detergente 5 L", "EspecificacionProveedor": "Detergente industrial 5 L", "Cantidad": 100.0, "Moneda": "CLP", "PrecioNeto": 10000.0, "TotalCargos": 0.0, "TotalDescuentos": 0.0, "TotalImpuestos": 190000.0, "Total": 1000000.0 }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#102a43">
+  <meta name="description" content="Prototipo de TIARE: gestión inteligente de compras, abastecimiento y logística.">
+  <title>TIARE — Procurement & Supply OS</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="app-shell">
+    <aside class="sidebar" id="sidebar">
+      <div class="brand">
+        <div class="brand-mark"><span>T</span><i></i></div>
+        <div class="brand-copy"><strong>TIARE</strong><small>PROCUREMENT & SUPPLY OS</small></div>
+        <button class="icon-button sidebar-close" id="sidebarClose" aria-label="Cerrar menú">×</button>
+      </div>
+
+      <div class="workspace-switcher">
+        <div class="workspace-avatar">TC</div>
+        <div class="workspace-text"><strong>Tiare Culo Rico SpA</strong><small>Espacio de trabajo</small></div>
+        <span class="chevron">⌄</span>
+      </div>
+
+      <div class="nav-label">GENERAL</div>
+      <nav class="main-nav" aria-label="Navegación principal">
+        <button class="nav-item active" data-page="dashboard"><span class="nav-icon" data-icon="dashboard"></span><span>Resumen ejecutivo</span></button>
+        <button class="nav-item" data-page="requests"><span class="nav-icon" data-icon="clipboard"></span><span>Solicitudes de compra</span><span class="nav-count">8</span></button>
+        <button class="nav-item" data-page="quotes"><span class="nav-icon" data-icon="scale"></span><span>Cotizaciones</span></button>
+        <button class="nav-item" data-page="tenders"><span class="nav-icon" data-icon="landmark"></span><span>Mercado Público</span><span class="nav-dot"></span></button>
+        <button class="nav-item" data-page="suppliers"><span class="nav-icon" data-icon="truck"></span><span>Proveedores</span></button>
+        <button class="nav-item" data-page="clients"><span class="nav-icon" data-icon="users"></span><span>Clientes</span></button>
+        <button class="nav-item" data-page="logistics"><span class="nav-icon" data-icon="route"></span><span>Logística</span></button>
+
+        <div class="nav-label nav-label-spaced">GESTIÓN INTELIGENTE</div>
+        <button class="nav-item" data-page="agents"><span class="nav-icon" data-icon="sparkles"></span><span>Agentes IA</span><span class="nav-badge">AI</span></button>
+        <button class="nav-item" data-page="reports"><span class="nav-icon" data-icon="chart"></span><span>Analítica e informes</span></button>
+        <button class="nav-item" data-page="settings"><span class="nav-icon" data-icon="settings"></span><span>Configuración</span></button>
+      </nav>
+
+      <div class="sidebar-bottom">
+        <div class="support-card">
+          <div class="support-icon"><span data-icon="headset"></span></div>
+          <strong>Centro de ayuda</strong>
+          <p>¿Necesitas asistencia con una operación?</p>
+          <button class="support-link" id="helpButton">Contactar soporte <span>↗</span></button>
+        </div>
+        <div class="user-profile">
+          <div class="user-avatar">ST</div>
+          <div class="user-meta"><strong>Samuel Toro</strong><small>Administrador</small></div>
+          <button class="more-button" aria-label="Opciones de usuario">•••</button>
+        </div>
+      </div>
+    </aside>
+
+    <div class="mobile-scrim" id="mobileScrim"></div>
+
+    <main class="main-area">
+      <header class="topbar">
+        <div class="topbar-left">
+          <button class="icon-button menu-toggle" id="menuToggle" aria-label="Abrir menú"><span data-icon="menu"></span></button>
+          <div class="breadcrumb"><span>Workspace</span><b>/</b><strong id="breadcrumbTitle">Resumen ejecutivo</strong></div>
+        </div>
+        <div class="topbar-actions">
+          <label class="global-search"><span data-icon="search"></span><input type="search" id="globalSearch" placeholder="Buscar en TIARE..." autocomplete="off"><kbd>⌘ K</kbd></label>
+          <button class="icon-button notification-button" id="notificationButton" aria-label="Notificaciones"><span data-icon="bell"></span><i></i></button>
+          <div class="top-user"><div class="user-avatar">ST</div><div><strong>Samuel Toro</strong><small>Administrador</small></div><span class="chevron">⌄</span></div>
+        </div>
+      </header>
+
+      <div class="page-content" id="pageContent">
+        <!-- Rendered by app.js -->
+      </div>
+      <footer class="app-footer"><span>© 2026 TIARE · Procurement & Supply OS</span><span><i class="online-dot"></i> Prototipo local · Datos demostrativos</span></footer>
+    </main>
+  </div>
+
+  <div class="modal-backdrop" id="modalBackdrop" aria-hidden="true">
+    <section class="modal" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+      <div class="modal-header"><div><span class="eyebrow" id="modalEyebrow">TIARE WORKSPACE</span><h2 id="modalTitle">Nueva solicitud</h2></div><button class="icon-button modal-close" id="modalClose" aria-label="Cerrar">×</button></div>
+      <div class="modal-body" id="modalBody"></div>
+      <div class="modal-footer" id="modalFooter"></div>
+    </section>
+  </div>
+
+  <div class="toast-region" id="toastRegion" aria-live="polite" aria-atomic="true"></div>
+  <script src="app.js"></script>
+</body>
+</html>

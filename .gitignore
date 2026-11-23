@@ -1,0 +1,24 @@
+# Secretos
+.env
+.env.*
+!.env.example
+**/.env
+!**/.env.example
+
+# Dependencias y builds
+node_modules/
+frontend/dist/
+backend/vendor/
+backend/public/build/
+backend/public/hot
+
+# Datos locales
+backend/database/*.sqlite
+backend/storage/*.key
+backend/storage/logs/*.log
+
+# Editor / SO
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/

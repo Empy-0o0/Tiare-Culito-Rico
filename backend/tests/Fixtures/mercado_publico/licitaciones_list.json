@@ -1,0 +1,10 @@
+{
+  "Cantidad": 3,
+  "FechaCreacion": "2026-11-14T10:15:00.000",
+  "Version": "v1",
+  "Listado": [
+    { "CodigoExterno": "9999-11-LE26", "Nombre": "SERVICIO DE ASEO FICTICIO", "CodigoEstado": 5, "FechaCierre": "2026-11-28T15:00:00" },
+    { "CodigoExterno": "9999-12-L126", "Nombre": "ARTÍCULOS DE OFICINA FICTICIOS", "CodigoEstado": 6, "FechaCierre": "2026-11-10T12:00:00" },
+    { "CodigoExterno": "9999-13-LP26", "Nombre": "MANTENCIÓN DE ASCENSORES FICTICIA", "CodigoEstado": 8, "FechaCierre": null }
+  ]
+}
